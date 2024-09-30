@@ -1,7 +1,6 @@
 #include <iostream>
 // ada solusi yang lebih bagus
 
-
 int main() {
 	using namespace std;
 	int t;

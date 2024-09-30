@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-// hanya diitung kalau skor integer positif jadi nilai 0 tidak dihitung goblok
+// hanya diitung kalau skor integer positif jadi nilai 0 tidak dihitung
 
 int main() {
 	using namespace std;
