@@ -9,21 +9,15 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    ll n;
-    cin >> n;
+    int t;
+    cin >> t;
 
-    if (n % 2 == 0) {
-        cout << n / 2 << " " << n / 2 << endl;
-        return 0;
+    while(t--) {
+        int a, b, c;
+        cin >> a >> b >> c;
+
+        cout << (b < c && b > a ? "STAIR" : b > c && b > a ? "PEAK" : "NONE") << endl;
     }
-
-    ll x = 0, y = n;
-    
-    for (int i = 0; i < n / 2; i++) {
-        
-    }
-
-    cout << x << " " << y << endl;   
 
     return 0;
 }
