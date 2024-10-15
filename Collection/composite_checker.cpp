@@ -1,10 +1,8 @@
 #include <bits/stdc++.h>
 
-using ll = long long;
-using ull = unsigned long long;
-using ld = long double;
+using namespace std;
 
-bool isComposite(ll n) {
+bool isComposite(int n) {
     if (n <= 3) return false;
 
     for (int i = 2; i * i <= n; i++) {
